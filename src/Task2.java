@@ -6,7 +6,7 @@ public class Task2 {
     public void task_2() {
         String name = "";
         Scanner input = new Scanner(System.in);
-        System.out.println("Введите имя, учитывая регистр символов:");
+        System.out.println("\n"+"Введите имя, учитывая регистр символов:");
         if (input.hasNextLine()) {
             name = input.nextLine();
             if (name.equals("Вячеслав")) {
